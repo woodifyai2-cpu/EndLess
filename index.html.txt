@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Endless - Premium Infinity Tables">
+    <title>Endless | Infinity Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="main-header">
+        <nav class="navbar container">
+            <div class="logo">Endless</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Where Light Meets Infinity</h1>
+            <p>Luxury handcrafted Infinity Tables, custom designed to your vision.</p>
+            <a href="#products" class="btn-primary">Explore Products</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section container">
+        <h2>About Endless</h2>
+        <p>
+            Endless creates premium infinity tables that blend light, reflection, and timeless design.
+            Every table is hand-built with precision to match your space and style.
+        </p>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="products-section container">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Standard Infinity Table" class="product-image">
+                <h3>Standard Infinity Table</h3>
+                <p>60x60 cm with premium reflective mirrors and warm LED lighting.</p>
+                <span class="price">4,500 EGP</span>
+                <a href="#contact" class="btn-primary">Order Now</a>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.jpg" alt="Custom Infinity Table" class="product-image">
+                <h3>Custom Infinity Table</h3>
+                <p>Designed to your specifications—size, lighting, and finish.</p>
+                <a href="#contact" class="btn-secondary">Request your model </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery-section container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/gallery1.jpg" alt="Infinity Table Design">
+            <img src="images/gallery2.jpg" alt="Infinity Table Close-up">
+            <img src="images/gallery3.jpg" alt="Custom Design">
+            <img src="images/gallery4.jpg" alt="Warm Lighting Table">
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section container">
+        <h2>Contact Us</h2>
+        <p>Order your custom Infinity Table or request more information.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>📞 <a href="tel:+201118772576">01118772576</a></p>
+            <p>📧 info@endless.com</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2025 Endless. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
